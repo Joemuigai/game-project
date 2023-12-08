@@ -126,7 +126,7 @@ while True:
     is_game_over()
 
     # draw player
-    game_surface.blit(player_img, player_rect)
+    game_surface.blit(player_img, player_rect)                    
 
     # draw food
     [food.draw() for food in food_list]
